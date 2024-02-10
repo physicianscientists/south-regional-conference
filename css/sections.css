@@ -1,0 +1,86 @@
+.page-section {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top: 50px;
+}
+
+.section-titles {
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.section-paragraphs {
+  text-align: center;
+  font-size: 16px;
+  color: rgb(80, 80, 80);
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.bold-sections {
+  font-weight: bold;
+}
+
+.underlined-sections {
+  text-decoration: underline;
+}
+
+.subsection-titles {
+  text-align: center;
+}
+
+.google-maps-placeholder {
+  display: block;
+  height: 200px;
+  width: 100%;
+  background-color: grey;
+}
+
+.sponsor-div {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sponsor-logos {
+  height: 180px;
+  margin: 0 20px 0 20px;
+}
+
+
+
+/* Mobile compatibility */
+
+@media screen and (max-width: 1024px) {
+
+  .page-section {
+    padding-left: 7%;
+    padding-right: 7%;
+    margin-top: 100px;
+  }
+
+  .sponsor-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  .sponsor-div a {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .sponsor-logos {
+    margin: 0 0 30px 0;
+    width: 75%;
+    height: auto;
+    object-fit: contain;
+  }
+
+}

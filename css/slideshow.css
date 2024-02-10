@@ -1,0 +1,183 @@
+/* Image Slideshown and Registration Link */
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.slideshow {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -50px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgb(41, 116, 255);
+}
+
+.slideshow-images {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  overflow-x: hidden;
+}
+
+/* The dots/bullets/indicators */
+
+.slideshow-dot-div {
+  position: absolute;
+  bottom: 0;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 2px;
+}
+
+.slideshow-dot {
+  bottom: 8px;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 3px;
+  background-color: rgb(195, 195, 195);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.slideshow-active, .slideshow-dot:hover {
+  background-color: rgb(41, 116, 255);
+  transition: background-color 0.3s ease;
+}
+
+/* Fading animation */
+
+.slideshow-fade {
+  animation-name: slideshow-fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes slideshow-fade {
+  from {opacity: .7}
+  to {opacity: 1}
+}
+
+
+/* Banner Information */
+
+.page-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.APSA-logo {
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+.banner-title {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 15px;
+  text-align: center;
+  text-shadow: 1px 1px 7px black;
+}
+
+.registration-button {
+  background-color: rgb(14, 166, 14);
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  box-shadow: 0 0 12px black;
+}
+
+.registration-button:hover {
+  background-color: rgb(30, 227, 30);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.registration-dates {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  text-shadow: 1px 1px 7px black;
+  margin-top: 10px;
+}
+
+
+
+/* Banner Mobile Compatibility */
+
+@media screen and (max-width: 1024px) {
+  .page-title {
+    width: 80%;
+  }
+
+  .banner-title {
+    font-size: 28px;
+  }
+
+  .registration-button {
+    font-size: 20px;
+    padding: 6px 15px;
+  }
+
+  .registration-dates {
+    font-size: 20px;
+  }
+}
+
