@@ -7,8 +7,8 @@
   width: 100%;
 }
 
-
 /* Slideshow container */
+
 .slideshow-container {
   display: flex;
   justify-content: center;
@@ -48,16 +48,18 @@
   border-radius: 3px 0 0 3px;
 }
 
+/* Position the "prev button" to the left */
 .prev {
   left: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+/* On hover, add a blue background color */
 .prev:hover, .next:hover {
   background-color: rgb(41, 116, 255);
 }
 
+/* Scaling the slideshow images to take up full screen */
 .slideshow-images {
   width: 100vw;
   height: 100vh;
@@ -92,7 +94,7 @@
   transition: background-color 0.3s ease;
 }
 
-/* Fading animation */
+/* Fading animation for slideshow images */
 
 .slideshow-fade {
   animation-name: slideshow-fade;
@@ -164,20 +166,20 @@
 
 @media screen and (max-width: 1024px) {
   .page-title {
-    width: 80%;
+    width: 70%;
   }
 
   .banner-title {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .registration-button {
-    font-size: 20px;
+    font-size: 18px;
     padding: 6px 15px;
   }
 
   .registration-dates {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 

@@ -3,12 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>APSA Diversity Summit</title>
+
+  <!-- Website Title -->
+  <title>APSA South Regional Conference</title>
+
+  <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="css/global.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/slideshow.css">
   <link rel="stylesheet" href="css/sections.css">
+  <link rel="stylesheet" href="css/section-purpose.css">
+  <link rel="stylesheet" href="css/section-schedule.css">
+  <link rel="stylesheet" href="css/section-speakers.css">
+  <link rel="stylesheet" href="css/section-travel.css">
+  <link rel="stylesheet" href="css/section-organizers.css">
   <link rel="stylesheet" href="css/footer.css">
+
 </head>
 <body>
 
@@ -28,45 +38,44 @@
 
       <!-- Navbar Links -->
       <ul class="nav-links" id="navLinks">
-        <li class="li-nav"><a href="#target-section" class="li-anchor">Purpose</a></li>
-        <li class="li-nav"><a href="" class="li-anchor">Schedule</a></li>
-        <li class="li-nav"><a href="" class="li-anchor">Speakers</a></li>
-        <li class="li-nav"><a href="" class="li-anchor">Travel Info</a></li>
-        <li class="li-nav"><a href="" class="li-anchor">Facilitators</a></li>
+        <li class="li-nav"><a href="#purpose-section" class="li-anchor">Purpose</a></li>
+        <li class="li-nav"><a href="#schedule-section" class="li-anchor">Schedule</a></li>
+        <li class="li-nav"><a href="#speakers-section" class="li-anchor">Speakers</a></li>
+        <li class="li-nav"><a href="#travel-section" class="li-anchor">Travel Info</a></li>
+        <li class="li-nav"><a href="#organizers-section" class="li-anchor">Organizers</a></li>
         <li class="li-nav last-link" id="lastLink"></li>
       </ul>
 
       <!-- Social Medias -->
       <ul class="social-media-list" id="socialMediaList">
         <li>
-          <a href="">
+          <a href="https://www.facebook.com/physicianscientists" target="_blank">
             <img src="img/FB-logo.svg" alt="Facebook-logo" class="social-medias">
           </a>
         </li>
         <li>
-          <a href="">
+          <a href="https://www.instagram.com/apsa_physicianscientists/" target="_blank">
             <img src="img/IG-logo.svg" alt="instagram-logo" class="social-medias">
           </a>
         </li>
         <li>
-          <a href="">
+          <a href="https://www.linkedin.com/company/american-physician-scientists-association/" target="_blank">
             <img src="img/LI-logo.svg" alt="Linkedin-Logo" class="social-medias">
           </a>
         </li>
         <li>
-          <a href="">
+          <a href="https://www.youtube.com/@PhysicianscientistsOrg" target="_blank">
             <img src="img/YT-logo.svg" alt="Youtube-Logo" class="social-medias">
           </a>
         </li>
         <li>
-          <a href="">
+          <a href="https://twitter.com/A_P_S_A" target="_blank">
             <img src="img/X-logo.svg" alt="XTwitter-Logo" class="social-medias">
           </a>
         </li>
       </ul>
 
     </div>
-
 
 
     <!-- Javascript for navbar -->
@@ -106,7 +115,7 @@
 
       <!-- Page Banner -->
       <div class="page-title">
-        <img src="img/APSA_Logo_White.png" alt="APSA logo" class="APSA-logo">
+        <img src="img/APSA_Logo_White_Crop.png" alt="APSA logo" class="APSA-logo">
         <h2 class="banner-title">South Regional Conference</h2>
         <button class="registration-button">Register</button>
         <h3 class="registration-dates">Host: Baylor College of Medicine MSTP</h3>
@@ -114,6 +123,7 @@
         <h3 class="registration-dates">Conference Date: 2/xx/2025</h3>
       </div>
     </div>
+
 
     <!-- Script for slideshow -->
     <script src="js/slideshow.js"></script>
@@ -123,37 +133,94 @@
 
 
   <!-- Purpose Section -->
-  <span class="anchor" id="target-section"></span>  <!-- Anchor Tag -->
-  <div class="page-section purpose-section">
-    <h1 class="section-titles">Purpose</h1>
+  <span class="anchor" id="purpose-section"></span>  <!-- Anchor Tag -->
+  <div class="purpose-section">
+    <h1 class="purpose-title">Purpose</h1>
 
-    <p class="section-paragraphs">The Burroughs Wellcome Fund (BWF) is an independent private foundation dedicated to advancing the biomedical sciences by supporting research as well as scientific and educational activities. This fund has supported APSA’s Physician Scientist Trainee Diversity Working Group (PST-DWG) in creating the Physician Scientist Trainee Diversity Summit on June 21-22, 2019 in Durham, NC. BWF is once again supporting the Physician Scientist Trainee Diversity Summit on June 27-28, 2024.</p>
+    <div class="purpose-div">
+      <h3 class="purpose-subtitles">About</h3>
+      <p class="purpose-desc">The APSA South Regional Conference is an APSA-sponsored conference designed to mentorship and collaboration for those interest in physician scientist careers.</p>
+    </div>
 
-    <p class="section-paragraphs">The Physician Scientist Trainee Diversity Summit will comprise 70-80 partners and participants, like yourself, who are experienced in addressing barriers to physician scientists careers or are undergoing physician scientist training. Our major goal from this summit is to utilize Human-Centered Design Thinking Sessions as a mechanism for developing a strategic plan, coordinating a research study to address questions related to physician scientist diversity, and to codify outcomes from our discussion for publication.</p>
+    <div class="purpose-div">
+      <h3 class="purpose-subtitles">Who Should Attend?</h3>
+      <p class="purpose-desc">This conference welcomes all undergrads, postbacs, MD/PhD, DO/PhD, MD, DO, and health sciences graduate programs who are interested in learning about physician scientist careers. Residents, fellows, postdocs, and faculty are also welcome to attend.</p>
+    </div>
 
-    <p class="section-paragraphs">This summit will not only give APSA an opportunity to convene its stakeholders and discuss the important topic of diversity in the physician scientist community, but also enable individuals from diverse backgrounds to support one another across various stages of training.</p>
+    <div class="purpose-div">
+      <h3 class="purpose-subtitles">Registration</h3>
+      <p class="purpose-desc">Registration will open in July for all participants. Registration for the conference will cost $[].  If you want to cancel your registration, please email [] at least [] days prior to the conference.</p>
+      <p class="purpose-desc">Click here to register:</p>
+      <button class="purpose-registration-button">Register</button>
+    </div>
+
+    <div class="purpose-div">
+      <h3 class="purpose-subtitles">Abstracts and Posters</h3>
+      <p class="purpose-desc">Abstract submission will open in July and extend until [].</p>
+      <p class="purpose-desc">Everyone is welcome to submit abstracts for poster sessions. Posters are automatically entered into a judging competition with cash prizes. Poster categories include []. Everyone who submits an abstract is required to register for the conference.</p>
+      <p class="purpose-desc">Abstract word length: 300 words maximum</p>
+      <p class="purpose-desc">Poster sizing: try to keep your poster within 48 x 36 inches in size.</p>
+    </div>
+
+    <div class="purpose-div">
+      <h3 class="purpose-subtitles">Accommodations</h3>
+      <p class="purpose-desc">Top-scoring abstracts will be awarded a travel stipend and a refund for registration costs based on a need-based scholarship.</p>
+    </div>
+
   </div>
 
 
 
   <!-- Schedule Section -->
-  <div class="page-section schedule-section">
-    <h1 class="section-titles">Schedule</h1>
-    <p class="section-paragraphs">TBD</p>
-    <p class="section-paragraphs"><span class="bold-sections">Consent to Use of Photographic Images:</span> Registration and attendance at, or participation in, the Diversity Summit and other activities constitutes an agreement by the registrant to the use and distribution (both now and in the future) of the registrant or attendee’s image or voice in photographs, videotapes, electronic reproductions, and audiotapes of such events and activities by APSA and other third parties, including but not limited the venue, the host city, and the host BWF.</p>
+  <span class="anchor" id="schedule-section"></span>  <!-- Anchor Tag -->
+  <div class="schedule-section">
+    <h1 class="schedule-title">Schedule</h1>
+    <p class="schedule-desc">TBD</p>
   </div>
 
 
 
-  <!-- Speaker Section -->
-  <div class="page-section speaker-section">
-    <h1 class="section-titles">Speakers</h1>
-    <p class="section-paragraphs">TBD</p>
+  <!-- Speakers Section -->
+  <span class="anchor" id="speakers-section"></span>  <!-- Anchor Tag -->
+  <div class="speakers-section">
+    <h1 class="speakers-title">Speakers</h1>
+    
+    <h2 class="speakers-subtitles left-speaker">Keynote Speaker</h2>
+    <div class="speakers-div-left">
+      <div class="speaker-picture-left-div">
+        <div class="speaker-picture">
+          <img src="img/blank.jpg" alt="blank">
+        </div>
+        <p class="speaker-info speaker-name">Some Person, MD, PhD</p>
+        <p class="speaker-info speaker-title">[title]</p>
+        <p class="speaker-info speaker-affiliation">[affiliation]</p>
+      </div>
+      <div class="speaker-description-div">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+    </div>
+
+    <h2 class="speakers-subtitles right-speaker">Diversity Keynote Speaker</h2>
+    <div class="speakers-div-right">
+      <div class="speaker-picture-div">
+        <div class="speaker-picture">
+          <img src="img/blank.jpg" alt="blank">
+        </div>
+        <p class="speaker-info speaker-name">Some Person, MD, PhD</p>
+        <p class="speaker-info speaker-title">[title]</p>
+        <p class="speaker-info speaker-affiliation">[affiliation]</p>
+      </div>
+      <div class="speaker-description-div">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+    </div>
+
   </div>
 
 
 
   <!-- Travel Info Section -->
+  <span class="anchor" id="travel-section"></span>  <!-- Anchor Tag -->
   <div class="page-section travel-info-section">
     <h1 class="section-titles">Travel Information for Attendees</h1>
     <p class="section-paragraphs">The Burroughs Wellcome Fund (BWF) has graciously given support of all participants’ hotel accommodations, meals, and ground transportation for this event. You will be staying at the Marriott at Research Triangle Park. Hotel reservations will be made for you following your registration for the meeting.</p>
@@ -182,13 +249,17 @@
 
 
 
-  <!-- Facilitators & Sponsors, etc Section -->
-  <div class="page-section facilitators-section">
-    <h1 class="section-titles">Facilitators</h1>
-    <p class="section-paragraphs">TBD</p>
+  <!-- Organizers, Facilitators & Sponsors Section -->
+  <span class="anchor" id="organizers-section"></span>  <!-- Anchor Tag -->
+  <div class="organizers-section">
+    <h1 class="organizers-titles">Organizers</h1>
+    <p class="organizers-paragraphs">TBD</p>
 
-    <h2 class="subsection-titles">Sponsors</h2>
+    <h2 class="organizers-titles">Sponsors</h2>
     <div class="sponsor-div">
+      <a href="https://www.bcm.edu/education/education-programs/md-phd-program" target="_blank">
+        <img src="img/BCM_Logo.png" alt="BCM Logo" class="sponsor-logos">
+      </a>
       <a href="https://www.physicianscientists.org/" target="_blank">
         <img src="img/APSA_Logo_Black.png" alt="APSA Logo" class="sponsor-logos">
       </a>
@@ -197,8 +268,8 @@
       </a>
     </div>
 
-    <h2 class="subsection-titles">Partners</h2>
-    <p class="section-paragraphs">TBD</p>
+    <h2 class="organizers-titles">Partners</h2>
+    <p class="organizers-paragraphs">TBD</p>
   </div>
 
 
@@ -211,8 +282,8 @@
       <div class="footer-section">
         <h3 class="footer-titles">Contact Us</h3>
         <ul class="contact-links">
-          <li>Email: jessica.weng@physicianscientists.org</li>
-          <li>Phone: 123-456-7890</li>
+          <li>Email: daniel.brock@physicianscientists.org</li>
+          <li>Phone: 720-425-0917</li>
         </ul>
       </div>
 
@@ -220,11 +291,36 @@
       <div class="footer-section">
         <h3 class="footer-titles">Follow Us</h3>
         <ul class="social-links">
-          <li><a href="#" target="_blank">Facebook</a></li>
-          <li><a href="#" target="_blank">Instagram</a></li>
-          <li><a href="#" target="_blank">LinkedIn</a></li>
-          <li><a href="#" target="_blank">YouTube</a></li>
-          <li><a href="#" target="_blank">X</a></li>
+          <li class="footer-socials">
+            <a href="https://www.facebook.com/physicianscientists" target="_blank" class="footer-links">
+              <img src="img/FB-logo.svg" alt="Facebook-logo" class="footer-medias">
+              <p>Facebook</p>
+            </a>
+          </li>
+          <li class="footer-socials">
+            <a href="https://www.instagram.com/apsa_physicianscientists/" target="_blank" class="footer-links">
+              <img src="img/IG-logo.svg" alt="instagram-logo" class="footer-medias">
+              <p>Instagram</p>
+            </a>
+          </li>
+          <li class="footer-socials">
+            <a href="https://www.linkedin.com/company/american-physician-scientists-association/" target="_blank" class="footer-links">
+              <img src="img/LI-logo.svg" alt="Linkedin-Logo" class="footer-medias">
+              <p>LinkedIn</p>
+            </a>
+          </li>
+          <li class="footer-socials">
+            <a href="https://www.youtube.com/@PhysicianscientistsOrg" target="_blank" class="footer-links">
+              <img src="img/YT-logo.svg" alt="Youtube-Logo" class="footer-medias">
+              <p>YouTube</p>
+            </a>
+          </li>
+          <li class="footer-socials">
+            <a href="https://twitter.com/A_P_S_A" target="_blank" class="footer-links">
+              <img src="img/X-logo.svg" alt="XTwitter-Logo" class="footer-medias">
+              <p>X (Twitter)</p>
+            </a>
+          </li>
         </ul>
       </div>
 
@@ -232,11 +328,11 @@
       <div class="footer-section">
         <h3 class="footer-titles">Section Links</h3>
         <ul class="section-links">
-          <li><a href="#">Purpose</a></li>
-          <li><a href="#">Schedule</a></li>
-          <li><a href="#">Speakers</a></li>
-          <li><a href="#">Travel Info</a></li>
-          <li><a href="#">Facilitators</a></li>
+          <li><a href="#purpose-section">Purpose</a></li>
+          <li><a href="#schedule-section">Schedule</a></li>
+          <li><a href="#speakers-section">Speakers</a></li>
+          <li><a href="#travel-section">Travel Info</a></li>
+          <li><a href="#organizers-section">Organizers</a></li>
         </ul>
       </div>
     </div>
@@ -244,8 +340,13 @@
     <!-- Copyright Claim -->
     <div class="copyright" id="js-copyright"></div>
 
+    
     <!-- Script to generate the copyright statement -->
     <script src="js/footer.js"></script>
+
+
   </footer>
+
+
 </body>
 </html>

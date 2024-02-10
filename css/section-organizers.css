@@ -1,0 +1,24 @@
+/* Organizers Section */
+
+.organizers-section {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top: 50px;
+}
+
+.organizers-titles {
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.organizers-subtitles {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.sponsor-logos {
+  width: 100px;
+}

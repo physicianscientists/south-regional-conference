@@ -1,0 +1,59 @@
+/* Purpose Section */
+
+.purpose-section {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top: 50px;
+}
+
+.purpose-title {
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.purpose-div {
+  margin-bottom: 20px;
+}
+
+.purpose-subtitles {
+  margin-bottom: 10px;
+}
+
+.purpose-desc {
+  text-align:left;
+  font-size: 16px;
+  color: rgb(80, 80, 80);
+  line-height: 1.5;
+}
+
+.purpose-registration-button {
+  background-color: rgb(14, 166, 14);
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.purpose-registration-button:hover {
+  background-color: rgb(30, 227, 30);
+  transition: background-color 0.3s ease-in-out;
+}
+
+
+
+/* Mobile compatibility */
+
+@media screen and (max-width: 1024px) {
+
+  .purpose-section {
+    padding-left: 7%;
+    padding-right: 7%;
+    margin-top: 100px;
+  }
+
+}
