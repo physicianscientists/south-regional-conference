@@ -40,7 +40,7 @@
 }
 
 .speaker-picture {
-  width: 30vw;
+  width: 25vw;
   height: auto;
   margin-bottom: 10px;
 }
@@ -87,7 +87,7 @@
   .speakers-section {
     padding-left: 7%;
     padding-right: 7%;
-    margin-top: 100px;
+    margin-top: 70px;
   }
 
   .speakers-subtitles {

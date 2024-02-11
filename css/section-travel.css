@@ -1,0 +1,91 @@
+/* Organizers Section */
+
+.travel-section {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top: 50px;
+}
+
+.travel-titles {
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.travel-info-div {
+  margin-bottom: 20px;
+}
+
+.travel-subtitles {
+  margin-bottom: 10px;
+}
+
+.travel-desc {
+  text-align:left;
+  font-size: 16px;
+  color: rgb(80, 80, 80);
+  line-height: 1.5;
+}
+
+
+
+/* Google Maps Info */
+
+.maps-title {
+  margin-top: 20px;
+}
+
+.travel-maps-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 10px;
+}
+
+.google-maps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.map-destination {
+  margin-bottom: 8px;
+}
+
+.map-container {
+  width: 100%;
+  height: 500px;
+}
+
+
+
+/* Mobile compatibility */
+
+@media screen and (max-width: 1024px) {
+
+  .travel-section {
+    padding-left: 7%;
+    padding-right: 7%;
+    margin-top: 60px;
+  }
+
+  .travel-maps-div {
+    display: flex;
+    flex-direction: column;
+    padding-left: 7%;
+    padding-right: 7%;
+  } 
+
+  .google-maps {
+    margin-bottom: 30px;
+  }
+
+  .map-container {
+    height: 400px;
+  }
+
+}
