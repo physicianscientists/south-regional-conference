@@ -3,8 +3,8 @@
 .schedule-section {
   display: flex;
   flex-direction: column;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 23%;
+  padding-right: 23%;
   margin-top: 50px;
 }
 
@@ -14,34 +14,73 @@
   text-align: center;
 }
 
-.schedule-div {
-  margin-bottom: 20px;
+.schedule-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 25px;
+  padding: 20px 20px 50px 20px;
+  background-color: rgb(226, 226, 226);
 }
 
-.schedule-subtitles {
-  margin-bottom: 10px;
+.schedule-event-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .schedule-desc {
-  text-align:left;
+  text-align: left;
   font-size: 16px;
   color: rgb(80, 80, 80);
   line-height: 1.5;
 }
 
-.schedule-registration-button {
-  background-color: rgb(14, 166, 14);
-  font-size: 16px;
+.schedule-time {
+  font-size: 20px;
   font-weight: bold;
-  color: white;
-  padding: 8px 15px;
-  border-radius: 5px;
-  cursor: pointer;
 }
 
-.schedule-registration-button:hover {
-  background-color: rgb(30, 227, 30);
-  transition: background-color 0.3s ease-in-out;
+.schedule-speaker-img {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;  /*circle border*/
+  border: 5px solid rgb(33, 66, 123);
+}
+
+.schedule-speaker-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.schedule-speaker-div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  width: 17vw;
+}
+
+.schedule-talk {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.schedule-speaker-desc {
+  font-style: italic;
+}
+
+.breakout-sessions {
+  display: inline;
+  font-size: 30px;
+  color: rgb(80, 80, 80);
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 
@@ -55,5 +94,31 @@
     padding-right: 7%;
     margin-top: 50px;
   }
+
+  .schedule-event-container {
+    flex-direction: column;
+  }
+
+  .schedule-time {
+    margin-bottom: 8px;
+  }
+
+  .schedule-speaker-container {
+    justify-content: space-between;
+  }
+
+  .schedule-speaker-div {
+    row-gap: 5px;
+    width: 100%;
+  }
+
+  .schedule-talk {
+    font-size: 18px;
+  }
+
+  .schedule-speaker-desc {
+    font-size: 15px;
+  }
+  
 
 }

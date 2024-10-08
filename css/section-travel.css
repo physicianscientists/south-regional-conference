@@ -39,10 +39,10 @@
 
 .travel-maps-div {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 10px;
-  padding-left: 10%;
-  padding-right: 10%;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 30px;
+  padding-left: 20%;
+  padding-right: 20%;
   margin-top: 10px;
 }
 
@@ -54,6 +54,7 @@
 
 .map-destination {
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .map-container {
