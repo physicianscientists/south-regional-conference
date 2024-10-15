@@ -15,6 +15,7 @@
   align-items: center;
   width: 100%;
   height: 100vh;
+  background-color: black;
   overflow: hidden;
   position: relative;
   margin: auto;
@@ -117,9 +118,9 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.7);
-  backdrop-filter: blur(2px); /* Blur effect */
-  -webkit-backdrop-filter: blur(2px); /* Safari support */
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px); /* Blur effect */
+  -webkit-backdrop-filter: blur(5px); /* Safari support */
   padding: 2% 5% 2% 5%;
   border-radius: 20px;
 }
@@ -139,55 +140,50 @@
 
 .registration-button-div {
   display: flex;
-  flex-direction: column;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  flex-direction: row;
+  column-gap: 20px;
 }
 
 .registration-subutton-div {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  margin-bottom: 5px;
+  height: 240px;
+  width: 240px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 15px 5px 15px;
+  border-radius: 10px;
 }
 
-.registration-text {
+.registration-subutton-div:hover {
+  background-color: rgba(41, 116, 255, 1);
+  transition: background-color 0.3s ease-in-out;
+
+  .tile-link {
+    color: rgb(255, 255, 255);
+    transition: background-color 0.3s ease-in-out;
+  }
+}
+
+.tile-logo {
+  width: 100px;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+
+.tile-title {
   color: white;
-  font-size: 18px;
-  margin-right: 10px;
+  font-size: 24px;
   text-align: center;
+  margin-bottom: 10px;
 }
 
-.registration-button {
-  font-size: 20px;
-  text-decoration: none;
-  font-weight: bold;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 8px;
-  cursor: pointer;
-  margin-bottom: 5px;
-  box-shadow: 0 0 12px black;
-}
-
-.registration-button-blue {
-  background-color: rgb(23, 74, 241);
-}
-
-.registration-button-purple {
-  background-color: rgb(175, 0, 146);
-}
-
-
-.registration-button-blue:hover {
-  background-color: rgb(39, 140, 255);
-  transition: background-color 0.3s ease-in-out;
-}
-
-.registration-button-purple:hover {
-  background-color: rgb(240, 23, 204);
-  transition: background-color 0.3s ease-in-out;
+.tile-link {
+  color: rgb(120, 251, 255);
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 7px;
 }
 
 .registration-dates {
@@ -204,30 +200,48 @@
 
 @media screen and (max-width: 1024px) {
   .page-title {
-    width: 70%;
+    width: 80%;
   }
 
   .APSA-logo {
-    height: 70px;
-    margin-bottom: 15px;
+    height: 60px;
+    margin-bottom: 10px;
   }
 
   .banner-title {
     font-size: 20px;
+    margin-bottom: 10px;
   }
 
-  .registration-button {
+  .registration-button-div {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  .registration-subutton-div {
+    height: 180px;
+    width: 240px;
+    padding: 5px 10px 5px 10px;
+  }
+  
+  .tile-logo {
+    width: 78px;
+    margin-top: 4px;
+    margin-bottom: 6px;
+  }
+  
+  .tile-title {
+    font-size: 20px;
+    margin-bottom: 6px;
+  }
+  
+  .tile-link {
     font-size: 16px;
-    padding: 6px 15px;
+    margin-bottom: 6px;
   }
 
   .registration-dates {
     font-size: 16px;
-  }
-
-  .registration-subutton-div {
-    flex-direction: column;
-    margin-bottom: 10px;
   }
 
   .registration-text {
