@@ -142,6 +142,7 @@
   display: flex;
   flex-direction: row;
   column-gap: 20px;
+  margin-bottom: 6px;
 }
 
 .registration-subutton-div {

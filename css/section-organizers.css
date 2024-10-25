@@ -87,10 +87,6 @@
   margin-bottom: 20px;
 }
 
-.sponsor-logos {
-  width: 100px;
-}
-
 
 
 /* Animating in the role descriptions when you click on them */
@@ -131,7 +127,7 @@
 
 .sponsor-logos {
   width: 100%;
-  max-width: 250px;
+  max-width: 200px;
   height: auto;
   margin: 5px 25px;
 }
