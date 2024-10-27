@@ -29,7 +29,7 @@
   text-align: left;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
 }
 
 /*
@@ -47,9 +47,7 @@
 
 .roles {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
   padding: 4px 8px;
 }
 
@@ -180,10 +178,15 @@
   }
 
   .profile-pics {
-    width: 70%;
+    width: 80%;
   }
 
   /* Sponsors and partners */
+  .sponsors-div {
+    row-gap: 20px;
+    margin-bottom: 5px;
+  }  
+
   .sponsor-logos {
     max-width: 200px;
   }
