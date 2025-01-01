@@ -110,6 +110,10 @@
 
 /* Sponsors and Partners */
 
+.sponsor-links {
+  display: inline;
+}
+
 .sponsors-div {
   display: flex;
   flex-wrap: wrap;
