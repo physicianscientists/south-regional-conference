@@ -30,6 +30,16 @@
   margin-bottom: 10px;
 }
 
+.travel-image-div {
+  display: flex;
+  justify-content: start;
+}
+
+.travel-image {
+  width: 70%;
+  margin-bottom: 20px;
+}
+
 
 
 /* Google Maps Info */
@@ -56,6 +66,16 @@
     padding-left: 7%;
     padding-right: 7%;
     margin-top: 60px;
+  }
+
+  .travel-image-div {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .travel-image {
+    width: 100%;
+    margin-bottom: 20px;
   }
   
   .map-container {
