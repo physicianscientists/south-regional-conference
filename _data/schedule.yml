@@ -1,0 +1,49 @@
+- time: "8:00-8:45am"
+  title: "Breakfast with Mentors"
+  presenter: "~Everyone"
+  image: "img/blank.jpg"
+
+- time: "8:45-9:30am"
+  title: "Professional Development Keynote"
+  presenter: "Dr. Dianna Milewicz"
+  image: "img/speaker_milewicz.png"
+
+- time: "9:30-10:45am"
+  title: "Poster Session"
+  presenter: "MD/PhD Students"
+  image: "img/blank.jpg"
+
+- time: "10:45am-12:00pm"
+  title: "Poster Session"
+  presenter: "Undergraduates & Postbacs"
+  image: "img/blank.jpg"
+
+- time: "12:00pm-1:00pm"
+  title: "Lunch with Specialties of Interest & Mentors"
+  presenter: "~Everyone"
+  image: "img/blank.jpg"
+
+- time: "1:00-2:00pm"
+  title: "Student Speaker Session"
+  presenter: "MD/PhD Students & Undergradudates & Postbacs"
+  image: "img/blank.jpg"
+
+- time: "2:00-2:10pm"
+  title: "Break"
+  presenter: "~Everyone"
+  image: null
+
+- time: "2:10-3:10pm"
+  title: "Inclusion and Equity in Medical Research"
+  presenter: "Drs. Rayne Rouce MD, Debra Murray PhD, and Yentli Soto Albrecht PhD"
+  image: "img/blank.jpg"
+
+- time: "3:10-4:10pm"
+  title: "Scientific Research Keynote"
+  presenter: "Dr. Chirag Patel"
+  image: "img/speaker_patel.png"
+
+- time: "4:10-5:00pm"
+  title: "Networking Session & Awards"
+  presenter: "~Everyone"
+  image: "img/blank.jpg"

@@ -1,0 +1,54 @@
+# Conference basic information
+title: "APSA South Regional Conference"
+subtitle: "South Regional Conference"
+year: 2025
+host_institution: "Baylor College of Medicine"
+
+# Event details
+event:
+  date: "2/21/2025"
+  time: "8am-5pm"
+  venue: "7th floor conference center of the Neurological Research Institute"
+  address: "1250 Moursund St, Houston, TX 77030"
+
+# Registration information
+registration:
+  status: "Registration is Closed"
+  deadline: "1/10/2025"
+  cost: "no cost"
+
+# Abstract submission
+abstracts:
+  status: "closed"
+  word_limit: 450
+  deadline: "January 10, 2025"
+  guidelines_url: "https://beta.the-asci.org/wp-content/uploads/2018/09/2019-abstract-guidance.pdf"
+  oral_guidelines_url: "https://docs.google.com/document/d/1DYqdOOqDeBxFhJVhQaAfTIJkzmMzyKqEtxpW7-q9HJA/edit?usp=sharing"
+
+# Poster information
+posters:
+  dimensions: "48 x 36 inches"
+  bring_own: true
+  prizes: true
+
+# Travel awards
+travel_awards:
+  undergrad_amount: "$750"
+  mdphd_amount: "$250"
+  announcement_date: "January 24th"
+  eligibility: "outside Houston metro area"
+
+# Social media and links
+links:
+  photo_album: "https://bcmedu.sharepoint.com/:f:/s/APSASouthRegionalConference/EmVtQb-DHmxBsu7uNvqUGjIBBXlXCstHz-CMNP6cM90Agg"
+
+# Slideshow images
+slideshow:
+  - image: "img/website_BCM.jpg"
+    alt: "BCM Campus"
+  - image: "img/website_TMC.jpg"
+    alt: "Texas Medical Center"
+  - image: "img/website_BCM_MSTP.jpg"
+    alt: "BCM MSTP"
+  - image: "img/website_NRI.jpg"
+    alt: "Neurological Research Institute"

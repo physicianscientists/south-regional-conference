@@ -1,0 +1,24 @@
+travel_instructions:
+  title: "Travel Instructions"
+  content: |
+    You can travel by flight to Houston Intercontinental Airport (IAH) or Hobby Airport. For those traveling by car, parking will be covered in garages 6, 4, 5, and 10. We recommend parking garage 6.
+
+    Travel grant recipients will be accomodated for travel expenses, up to $750 for undergraduates/postbacs and $250 for MD/PhD students.
+
+hotel_accommodations:
+  title: "Hotel Accommodations"
+  content: |
+    If you plan to stay overnight in Houston, please consider booking a hotel in the Texas Medical Center, such as the [Houston Marriott Medical Center/Museum District hotel](https://urldefense.proofpoint.com/v2/url?u=https-3A__www.marriott.com_events_start.mi-3Fid-3D1614802844440-26key-3DCORP&d=DwMGaQ&c=ZQs-KZ8oxEw0p81sqgiaRA&r=tKsCSLhhp7xWlyPps9SxWQ&m=gcQvfFvvdL-zjawhpyXZq7suCXLOOPQEJNBWoJCywWOEnd1YCojTqP7UtxGYEXMF&s=7JWNoLrTfV3WEOca1NXcc2jyvldzxSwAbC7MOes5fEw&e=). The link will take you to a page with Baylor's discount code applied.
+
+    The hotel's address is: 6580 Fannin Street, 1730 Dryden Rd, Houston, TX 77030. It has a 5-minute walking distance from the conference center.
+
+conference_center:
+  title: "Conference Center"
+  content: |
+    Please head to the 7th floor of the Neurological Research Institute (1250 Moursund St, Houston, TX 77030). Enter the front sliding glass doors. There will be signs to assist you. Check-in will be on the 7th floor lobby.
+  image: "img/NRI_instructions.jpg"
+
+meals:
+  title: "Meals"
+  content: |
+    Lunch and Breakfast will be provided. Breakfast will be provided by (catering company to come) and lunch will be provided by (catering company to come).

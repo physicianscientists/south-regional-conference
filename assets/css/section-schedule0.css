@@ -1,0 +1,133 @@
+/* Schedule Section */
+
+.schedule-section {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-top: 50px;
+}
+
+.schedule-title {
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.schedule-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 25px;
+  padding: 30px 30px 50px 30px;
+  background-color: rgb(226, 226, 226);
+}
+
+.schedule-event-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.schedule-desc {
+  text-align: left;
+  font-size: 16px;
+  color: rgb(80, 80, 80);
+  line-height: 1.5;
+}
+
+.schedule-time {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.schedule-speaker-img {
+  display: none; /* Display none for hiding schedule pics */
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;  /*circle border*/
+  border: 3px solid rgb(33, 66, 123);
+}
+
+.schedule-speaker-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.schedule-speaker-div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  width: 25vw;
+}
+
+.schedule-talk {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.schedule-speaker-desc {
+  font-style: italic;
+}
+
+.breakout-sessions {
+  display: inline;
+  font-size: 30px;
+  color: rgb(80, 80, 80);
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+
+
+/* Mobile compatibility */
+
+@media screen and (max-width: 1024px) {
+
+  .schedule-section {
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 50px;
+  }
+
+  .schedule-container {
+    row-gap: 30px;
+    padding: 20px 20px 70px 20px;
+    background-color: rgb(226, 226, 226);
+  }
+  
+
+  .schedule-event-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .schedule-time {
+    margin-bottom: 8px;
+  }
+
+  .schedule-speaker-container {
+    justify-content: space-between;
+  }
+
+  .schedule-speaker-div {
+    row-gap: 5px;
+    width: 100%;
+  }
+
+  .schedule-talk {
+    font-size: 18px;
+  }
+
+  .schedule-speaker-desc {
+    font-size: 15px;
+  }
+  
+
+}

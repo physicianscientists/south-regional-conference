@@ -8,3 +8,6 @@
 
 # Folders to ignore
 /img/profile-pics/
+_site/
+
+.claude/
