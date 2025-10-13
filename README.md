@@ -1,6 +1,6 @@
-# 2025 APSA South Regional Conference 
+# 2026 APSA Eastern-Atlantic Student Research Forum (ESRF) 
 
-## Host: Baylor College of Medicine
+## Host: University of Miami Miller School of Medicine
 
 The official APSA South Regional Conference website can be found here: (work in progress)
 
