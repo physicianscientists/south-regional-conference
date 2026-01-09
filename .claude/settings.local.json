@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "Bash(git checkout:*)",
+      "Bash(mkdir:*)",
+      "Bash(bundle install:*)",
+      "Bash(bundle exec:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
